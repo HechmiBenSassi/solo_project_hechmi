@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #10101E;
+  color: #fff;
+}
+.buttons{
+  margin:20px;
+  text-align: center;
+}
+button { 
+  background-color: gray;
+  margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid #2E94E3;;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    transition-property: backgroud,box-shadow;
+  }
+  button:hover{
+    background: #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+  }
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 75vh;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  margin-left: 25%;
+} 
+#digitalClock {
+  height: 300px;
+  width: 600px;
+  border: 5px solid #2E94E3;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 70px;
+  align-items: center;
+  padding: 2px 16px;
+  transition: 0.5s;
+  transition-property: backgroud,box-shadow;
+  
+}
+#digitalClock:hover{
+  background: #2E94E3;
+  box-shadow: 0 0 30px #2E94E3;
+}
+ 
+#date {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
